@@ -7,20 +7,20 @@ class Logcat < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/GBouerat/logcat/releases/download/v#{version}/logcat-aarch64-apple-darwin.tar.gz"
-      # sha256 "REPLACE_WITH_MACOS_ARM64_SHA256"
+      sha256 "6c8b540050d5b0c0472bd4700e2151413bcb8b1b21c301775d51f74d6f96df35"
     else
       url "https://github.com/GBouerat/logcat/releases/download/v#{version}/logcat-x86_64-apple-darwin.tar.gz"
-      # sha256 "REPLACE_WITH_MACOS_X86_64_SHA256"
+      sha256 "8f8d44869f15a973370a9b14fb59f31d933276a09e2d4c6991561622cf1f953e"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/GBouerat/logcat/releases/download/v#{version}/logcat-aarch64-unknown-linux-musl.tar.gz"
-      # sha256 "REPLACE_WITH_LINUX_ARM64_SHA256"
+      sha256 "247ad85e52d79e4cac1123af8b13b3f873ca60130c535e86a0033542bb0e23d0"
     else
       url "https://github.com/GBouerat/logcat/releases/download/v#{version}/logcat-x86_64-unknown-linux-musl.tar.gz"
-      # sha256 "REPLACE_WITH_LINUX_X86_64_SHA256"
+      sha256 "2ef72d354cfcd13d5bdf4e0ec048acac8abd33492bc9cc949d8ddbffc36f6f6a"
     end
   end
 
