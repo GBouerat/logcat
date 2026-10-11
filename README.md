@@ -2,6 +2,8 @@
 
 A high-performance Rust reimplementation and modern evolution of [JakeWharton/pidcat](https://github.com/JakeWharton/pidcat) to filter, format, and highlight Android `adb logcat` output.
 
+[![Crates.io](https://img.shields.io/crates/v/logcat-cli.svg)](https://crates.io/crates/logcat-cli)
+[![docs.rs](https://docs.rs/logcat-cli/badge.svg)](https://docs.rs/logcat-cli)
 ![Rust](https://img.shields.io/badge/rust-1.80%2B-orange.svg)
 ![Tests](https://img.shields.io/badge/tests-71%20passing-brightgreen.svg)
 ![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)
@@ -140,3 +142,7 @@ Options:
   -h, --help                            Print help
   -V, --version                         Print version
 ```
+
+---
+
+*Generated entirely by Gemini through Antigravity.*
