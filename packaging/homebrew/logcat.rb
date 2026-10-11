@@ -27,8 +27,8 @@ class Logcat < Formula
   def install
     bin.install "logcat"
 
-    # Install shell completions directly from the compiled binary
-    generate_completions_from_executable(bin/"logcat", "--generate-completions")
+    # Install shell completions directly from the compiled binary (bash & zsh)
+    generate_completions_from_executable(bin/"logcat", "--generate-completions", shells: [:bash, :zsh])
   end
 
   test do
